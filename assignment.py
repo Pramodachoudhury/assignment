@@ -48,7 +48,7 @@ print(12*13/2)"""
 #----8-------------------
 """widgets=int(input('enter a number of widgets:'))
 gizoms=int(input('enter a number of gizoms:'))
-weight1=widgets*75
+                                    weight1=widgets*75
 weight2=gizoms*112
 total=weight1+weight2
 print('weight of widgets:', weight1)
@@ -74,4 +74,10 @@ print(a,"/",b,"is", a/b)
 print(a,"//",b,"is", a//b)
 print(a,"**",b,"is", a**b)"""
 #------------------11----------------------
+united_state=int(input('enter in MPG :'))
+canada_state=int(input('enter in LPHT :'))
+united_state1=0.4*united_state
+canada_state1=2.5*canada_state
+print(united_state1,canada_state1,sep='/n')
+
 
